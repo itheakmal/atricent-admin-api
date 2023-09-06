@@ -12,7 +12,7 @@ require('dotenv').config();
 db.sync();
 // Configure cors options
 const corsOptions = {
-    origin: 'http://localhost:3000', 
+    origin: 'https://admin.atricent.com', 
 };
 app.use(cors(corsOptions));
 app.use(express.json());
